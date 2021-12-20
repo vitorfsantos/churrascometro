@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascometro</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="logo">
+            <img src="./images/churrasco.png">
+            <h1>Churrascometro</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#Churrascometro">Churrascometro</a></li>
+                <li><a href="#Contato">Contato</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="painel">
+        <h2>Facilite os preparativos do seu churrasco!</h2>
+    </div>
+    <section class="sectionText" id="sobre">
+        <h2>Sobre</h2>
+        <p>O Churrascômetro foi criado com o intuito
+            de calcular automaticamente a quantidade
+            de carne, cerveja e bebidas necessárias 
+            para a quantidade de adultos e Crianças
+            que estarão presentes.
+        </p>
+    </section>
+    <section class="imagemFamilia">
+        
+    </section>
+    <section class="churrascometro" id="Churrascometro">
+        <div class="container">
+            <h1>Churrascômetro</h1>
+            <input id="adultos" name="adultos" type="number" placeholder="Adultos">
+            <input id="criancas" name="criancas" type="number" placeholder="Crianças">
+            <input id="duracao" name="duracao" type="number" placeholder="Duração">
+            <button onclick="calcular()">Calcular</button>
+                <div id="resultado" class="resultado">
+
+                </div>
+        </div>
+    </section>
+    <footer class="contato" id="Contato">
+        <h3>Contato</h3>
+        <ul class="redesSociais">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></i></a></li>
+            <li><a href="#"><i class="fab fa-github-alt"></i></i></a></li>
+        </ul>
+
+    </footer>
+    <div>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
